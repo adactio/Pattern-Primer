@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lange="en">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Pattern Primer</title>
