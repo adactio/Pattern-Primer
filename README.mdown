@@ -7,3 +7,5 @@ Here's a Node.js port: https://github.com/beardtwizzle/pattern-primer-on-node
 And here it is in Ruby: https://github.com/micdijkstra/Pattern-Primer-Ruby
 
 Here's a Jekyll version: https://github.com/opattison/Pattern-Primer-Jekyll
+
+You can even run it using Grunt: https://github.com/asciidisco/grunt-patternprimer
