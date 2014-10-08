@@ -28,7 +28,7 @@
 $files = array();
 $handle=opendir('patterns');
 while (false !== ($file = readdir($handle))):
-    if(stristr($file,'.html')):
+    if(substr($file, -5) == '.html'):
         $files[] = $file;
     endif;
 endwhile;
