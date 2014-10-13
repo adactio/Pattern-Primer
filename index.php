@@ -48,5 +48,16 @@ foreach ($files as $file):
 endforeach;
 ?>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('.source').on('keyup', function () {
+                var display = $(this).siblings('.display'),
+                    updatedHtml = $(this).children('textarea').val();
+
+                display.html(updatedHtml);
+            });
+        });
+    </script>
 </body>
 </html>
